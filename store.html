@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>CAMA</title>
+    <title>Business Casual - Start Bootstrap Theme</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,8 +25,8 @@
   <body>
 
     <h1 class="site-heading text-center text-white d-none d-lg-block">
-      <span class="site-heading-upper text-primary mb-3">CAMA</span>
-      <span class="site-heading-lower">Community Accesiblity By Motorhome Association</span>
+      
+      <span class="site-heading-lower">Contact Us</span>
     </h1>
 
     <!-- Navigation -->
@@ -38,7 +38,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav mx-auto">
-            <li class="nav-item active px-lg-4">
+            <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="index.html">Home
                 <span class="sr-only">(current)</span>
               </a>
@@ -46,69 +46,51 @@
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
             </li>
-            <li class="nav-item px-lg-4">
+            <li class="nav-item active px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="store.html">Contacts</a>
             </li>
-            
           </ul>
         </div>
       </div>
     </nav>
-
-    <section class="page-section clearfix">
-      <div class="container">
-        <div class="intro">
-          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.png" alt="">
-          <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-            <h2 class="section-heading mb-4">
-              
-              <span class="section-heading-lower"><b>Main Goal</b></span>
-            </h2>
-            <p class="mb-3">Eliminating isolation for families caring for an individual with autism by providing an opportunity to drive a small motorhome as an alternative to the “family car.”  
-            </p>
-            <div class="intro-button mx-auto">
-              <a class="btn btn-primary btn-xl" href="https://www.facebook.com/MotorhomeAssociation.CommunityAccessibility/" target="_blank">Visit Our Facebook</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <section class="page-section cta">
       <div class="container">
         <div class="row">
           <div class="col-xl-9 mx-auto">
             <div class="cta-inner text-center rounded">
-              <h2 class="section-heading mb-4">
-                <span class="section-heading-upper">What our team will achieve for you</span>
-               
+              <h2 class="section-heading mb-5">
+                <span class="section-heading-upper">Where you can reach us</span>
+                <span class="section-heading-lower">Our Contacts</span>
               </h2>
-              <p class="mb-0">
-                <ul>
-                  <li>
-                      A structure for a demo day for the purpose of demonstrating how RVs can impact families with children and adult children that suffer from dissabilites.
-                  </li>
-                  <li>A non profit to raise funds for families in need of an RV.</li>
-                  <li>Online exposure to this issue using social media and this website.</li>
-                </ul>
-                 
-              </p>
+              <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
+                <li class="list-unstyled-item list-hours-item d-flex">
+                  Gary Kuhn
+                  <span class="ml-auto">(503) 399-6541</span>
+                </li>
+                <li class="list-unstyled-item list-hours-item d-flex">
+                  Renee Kuhn
+                  <span class="ml-auto">(503) 930-6619</span>
+                </li>
+              </ul>
+              
+             
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <footer class="footer text-faded text-center py-5">
-      <div class="container">
-        <p class="m-0 small">Copyright &copy; Your Website 2018</p>
-      </div>
-    </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   </body>
+
+  <!-- Script to highlight the active date in the hours list -->
+  <script>
+    $('.list-hours li').eq(new Date().getDay()).addClass('today');
+  </script>
 
 </html>
